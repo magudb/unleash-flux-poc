@@ -20,4 +20,4 @@ spec:
       - host: unleash.testaviva.local
         paths:
           - path: /
-            pathType: Prefix
+            pathType: ImplementationSpecific
