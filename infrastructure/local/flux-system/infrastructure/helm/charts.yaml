@@ -16,7 +16,9 @@ spec:
   values:
     ingress:
       enabled: true
+      hosts:
+      - host: unleash.testaviva.dev
     autoscaling:
-      enabled: true
-      minReplicas: 1
-      maxReplicas: 2
+        enabled: true
+        minReplicas: 1
+        maxReplicas: 2
