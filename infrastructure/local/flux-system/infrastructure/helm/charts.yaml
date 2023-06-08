@@ -18,6 +18,9 @@ spec:
       enabled: true
       hosts:
       - host: unleash.testaviva.dev
+        paths:
+          - path: /
+            pathType: ImplementationSpecific
     autoscaling:
         enabled: true
         minReplicas: 1
