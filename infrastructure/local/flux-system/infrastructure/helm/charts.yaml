@@ -20,11 +20,11 @@ spec:
         kubernetes.io/ingress.class: nginx
         kubernetes.io/tls-acme: "true"
       hosts:
-      - host: unleash.testaviva.internal
+      - host: unleash.testaviva.dev
         paths:
           - path: /
-            pathType: prefix
+            pathType: ImplementationSpecific
       tls: 
         - secretName: unleash-testaviva-internal-tls
           hosts:
-            - unleash.testaviva.internal
+            - unleash.testaviva.dev
