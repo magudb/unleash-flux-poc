@@ -17,7 +17,7 @@ spec:
     ingress:
       enabled: true
       hosts:
-      - host: unleash.testaviva.dev
+      - host: unleash.testaviva.local
         paths:
           - path: /
             pathType: ImplementationSpecific
