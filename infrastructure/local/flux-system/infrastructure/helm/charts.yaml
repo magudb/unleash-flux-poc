@@ -1,0 +1,22 @@
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: unleash
+  namespace: unleash
+spec:
+  chart:
+    spec:
+      chart: unleash
+      sourceRef:
+        kind: HelmRepository
+        name: unleash
+      version: 2.8.0
+  interval: 1m0s
+values:
+  ingress:
+    enabled: true
+  autoscaling:
+    enabled: true
+    minReplicas: 1
+    maxReplicas: 2
