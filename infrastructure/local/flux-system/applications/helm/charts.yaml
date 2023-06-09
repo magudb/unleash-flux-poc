@@ -10,7 +10,7 @@ spec:
       chart: frontend
       sourceRef:
         kind: HelmRepository
-        name: testaviva
+        name: magudb
       version: 1.0.1
   interval: 1m0s
   values:
