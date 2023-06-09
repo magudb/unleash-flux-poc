@@ -5,7 +5,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: 'unleashFrontend'
+  IMAGE_NAME: magudb/unleash-frontend
 
 jobs:
   build-and-push-image:
