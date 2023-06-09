@@ -18,23 +18,23 @@ spec:
       enabled: true
       annotations: 
         kubernetes.io/ingress.class: nginx
----
-apiVersion: helm.toolkit.fluxcd.io/v2beta1
-kind: HelmRelease
-metadata:
-  name: frontend
-  namespace: default
-spec:
-  chart:
-    spec:
-      chart: backend
-      sourceRef:
-        kind: HelmRepository
-        name: testaviva
-      version: 1.0.0
-  interval: 1m0s
-  values:
-    ingress:
-      enabled: true
-      annotations: 
-        kubernetes.io/ingress.class: nginx
+# ---
+# apiVersion: helm.toolkit.fluxcd.io/v2beta1
+# kind: HelmRelease
+# metadata:
+#   name: frontend
+#   namespace: default
+# spec:
+#   chart:
+#     spec:
+#       chart: backend
+#       sourceRef:
+#         kind: HelmRepository
+#         name: testaviva
+#       version: 1.0.0
+#   interval: 1m0s
+#   values:
+#     ingress:
+#       enabled: true
+#       annotations: 
+#         kubernetes.io/ingress.class: nginx
