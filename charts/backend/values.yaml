@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: magudb/unleash-backend
+  repository: ghcr.io/magudb/unleash-backend
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
