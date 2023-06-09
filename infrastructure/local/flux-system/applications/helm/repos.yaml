@@ -6,4 +6,4 @@ metadata:
   namespace: default
 spec:
   interval: 1m0s
-  url: https://udbjorg.net/assets/charts
+  url: https://udbjorg.net/unleash-flux-poc/
