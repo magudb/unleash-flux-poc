@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   backend:
   - apiVersion: v2
+    appVersion: 1.0.3
+    created: "2023-06-13T12:09:17.935498343Z"
+    description: A Helm chart for Kubernetes
+    digest: 4918edbbd5f896d23bef4dcfafe23c8d55ced1c8e4cbddd2824ecc038c1cf5fd
+    name: backend
+    type: application
+    urls:
+    - https://github.com/magudb/unleash-flux-poc/releases/download/backend-1.0.3/backend-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
     appVersion: 1.0.0
     created: "2023-06-09T11:56:34.320673592Z"
     description: A Helm chart for Kubernetes
@@ -23,6 +33,16 @@ entries:
     version: 0.1.0
   frontend:
   - apiVersion: v2
+    appVersion: 1.0.3
+    created: "2023-06-13T12:09:18.018149351Z"
+    description: A Helm chart for Kubernetes
+    digest: cc5043dc63e4798165a4d26d58a88e928f6745e36ae436035ed0375c9dbfcba8
+    name: frontend
+    type: application
+    urls:
+    - https://github.com/magudb/unleash-flux-poc/releases/download/frontend-1.0.3/frontend-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
     appVersion: 1.0.1
     created: "2023-06-09T12:50:32.841343437Z"
     description: A Helm chart for Kubernetes
@@ -42,4 +62,4 @@ entries:
     urls:
     - https://github.com/magudb/unleash-flux-poc/releases/download/frontend-1.0.0/frontend-1.0.0.tgz
     version: 1.0.0
-generated: "2023-06-09T12:50:32.841368439Z"
+generated: "2023-06-13T12:09:18.018164151Z"
