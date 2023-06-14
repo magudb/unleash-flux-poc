@@ -30,8 +30,8 @@ spec:
       chart: backend
       sourceRef:
         kind: HelmRepository
-        name: testaviva
-      version: 1.0.0
+        name: magudb
+      version: "1.0.x"
   interval: 1m0s
   values:
     ingress:
