@@ -47,7 +47,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: frontend.testaviva.local
+    - host: backend.testaviva.local
       paths:
         - path: /
           pathType: ImplementationSpecific
